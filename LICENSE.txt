@@ -1,0 +1,113 @@
+FORENSIQ PROPRIETARY FREEWARE LICENCE
+
+Version 1.0
+Copyright (c) 2026 Vincent Oli. All rights reserved.
+
+PLEASE READ THIS LICENCE CAREFULLY BEFORE DOWNLOADING, INSTALLING, OR USING FORENSIQ.
+
+By downloading, installing, copying, or using ForensiQ, you agree to the terms of this licence. If you do not agree, do not download, install, or use the software.
+
+1. DEFINITIONS
+
+"ForensiQ" or "the Software" means the official ForensiQ Windows application, installer, documentation, screenshots, release files, and any updates supplied by Vincent Oli.
+
+"Official Release" means a copy of ForensiQ obtained directly from the official ForensiQ project page or another distribution location expressly authorised by Vincent Oli.
+
+2. LICENCE GRANT
+
+Subject to this licence, Vincent Oli grants you a limited, non-exclusive, non-transferable, revocable, royalty-free licence to:
+
+a. download an Official Release;
+b. install and run the unmodified Software on devices you own or control; and
+c. use the Software for personal, educational, research, portfolio-evaluation, or internal organisational purposes.
+
+Use is permitted only for lawful cybersecurity monitoring, analysis, testing, or administration involving systems, websites, servers, hosting accounts, and log files that you own or are expressly authorised to assess.
+
+3. RESTRICTIONS
+
+Except where applicable law expressly permits an activity that cannot legally be restricted, you must not:
+
+a. modify, adapt, translate, patch, alter, or create derivative works from the Software;
+b. reverse engineer, decompile, disassemble, decode, or attempt to discover the source code or internal implementation of the Software;
+c. copy, republish, upload, mirror, redistribute, sublicense, rent, lease, lend, sell, resell, or commercially exploit the Software;
+d. package the Software with another product or service without prior written permission;
+e. remove, obscure, or alter any copyright, trademark, attribution, licence, security, or branding notice;
+f. claim that you created, own, or are the original author of ForensiQ;
+g. use the ForensiQ name, logo, screenshots, or branding in a way that suggests endorsement, partnership, or authorship without permission;
+h. bypass or interfere with any technical, security, licensing, privacy, or integrity control;
+i. use the Software to access, probe, disrupt, monitor, or analyse any system without the required permission; or
+j. use the Software for unlawful, harmful, fraudulent, or abusive activity.
+
+4. SOURCE CODE
+
+This licence does not grant access to, ownership of, or rights in the private ForensiQ source code.
+
+If any source code, internal build material, or non-public development file is disclosed accidentally or supplied for limited review, no permission is granted to use, copy, modify, publish, or redistribute it unless Vincent Oli provides separate written permission.
+
+5. OWNERSHIP
+
+ForensiQ is licensed, not sold.
+
+Vincent Oli retains all right, title, interest, copyright, and other intellectual-property rights in ForensiQ, including its source code, compiled application, design, documentation, detection logic, branding, and release materials.
+
+No rights are granted except those expressly stated in this licence.
+
+6. THIRD-PARTY COMPONENTS
+
+ForensiQ may include or depend on third-party software components. Those components remain subject to their own licences and copyright notices.
+
+This licence applies only to the original ForensiQ materials owned by Vincent Oli and does not replace any applicable third-party licence.
+
+7. UPDATES, SUPPORT, AND AVAILABILITY
+
+Vincent Oli may release, change, suspend, or discontinue ForensiQ or any feature at any time.
+
+This licence does not require the provision of updates, maintenance, support, compatibility fixes, or future versions.
+
+8. USER RESPONSIBILITY
+
+You are responsible for:
+
+a. obtaining all permissions required to monitor or analyse a system or log source;
+b. configuring ForensiQ securely;
+c. protecting credentials, collector secrets, reports, databases, logs, and backups;
+d. reviewing detections before taking action; and
+e. maintaining appropriate secure-coding, patching, backup, access-control, firewall, and monitoring practices.
+
+ForensiQ is an analysis tool. It does not automatically block attacks and does not replace professional security controls or judgement.
+
+9. DISCLAIMER OF WARRANTY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, FORENSIQ IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES, CONDITIONS, OR GUARANTEES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY.
+
+THIS INCLUDES, WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, RELIABILITY, AVAILABILITY, SECURITY, NON-INFRINGEMENT, OR ERROR-FREE OPERATION.
+
+No detection result is guaranteed to be complete, correct, or suitable as the sole basis for a security, legal, disciplinary, or business decision.
+
+10. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, VINCENT OLI SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE LOSS OR DAMAGE, OR FOR LOSS OF DATA, PROFITS, REVENUE, BUSINESS, OPPORTUNITY, REPUTATION, OR SECURITY, ARISING FROM OR RELATED TO FORENSIQ OR THIS LICENCE.
+
+Nothing in this licence excludes or limits liability where exclusion or limitation is prohibited by applicable law.
+
+11. TERMINATION
+
+This licence terminates automatically if you breach any term.
+
+When the licence terminates, you must stop using ForensiQ and delete every copy in your possession or control.
+
+Sections concerning ownership, restrictions, third-party rights, disclaimers, liability, and any provisions that by their nature should survive will remain in effect.
+
+12. PERMISSION FOR REDISTRIBUTION OR COMMERCIAL USE
+
+Any permission to modify, redistribute, bundle, resell, sublicense, commercially exploit, or create derivative works from ForensiQ must be granted separately in writing by Vincent Oli.
+
+13. ENTIRE LICENCE
+
+This document is the complete licence governing the Official Release unless a separate written agreement signed by Vincent Oli states otherwise.
+
+14. CONTACT
+
+Requests for permissions or licensing should be made through the official ForensiQ project page.
+
+END OF LICENCE
