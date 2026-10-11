@@ -2,7 +2,7 @@
 
 ## Supported product
 
-**Logiqra 1.2.0** is the current Windows product version and has completed Windows build and automated-test validation. Its public GitHub installer release is being prepared.
+**Logiqra 1.2.0** is the current Windows product version and has completed Windows build and automated-test validation. Its official Windows installer is [published on GitHub](https://github.com/vinceemmy/Logiqra/releases/tag/v1.2.0).
 
 The older v1.1.3 download remains a historical release. It should not be confused with the current Logiqra installer.
 
@@ -42,6 +42,6 @@ Only connect systems and data sources you own or are expressly authorised to ass
 
 ## Release integrity
 
-When the 1.2.0 public installer is published, check its SHA-256 value against the checksum published alongside that **same release**. Do not use a checksum from another build or from the archived v1.1.3 download.
+Before running the 1.2.0 public installer, check its SHA-256 value against the checksum published alongside that **same release**. Do not use a checksum from another build or from the archived v1.1.3 download.
 
 See [Security and Privacy](docs/LOGIQRA_SECURITY_AND_PRIVACY.md) for the product's high-level data-handling design.

@@ -35,9 +35,9 @@ The release-validation process was rerun after correcting one Ruff finding and o
 
 ## Release status
 
-The Windows installer was built and installed for local testing. At the time this report was written, the **Logiqra 1.2.0 installer had not yet been uploaded to GitHub Releases**.
+The Windows installer was built and installed for local testing. It was subsequently [published on GitHub Releases](https://github.com/vinceemmy/Logiqra/releases/tag/v1.2.0) on 11 October 2026. The published installer SHA-256 matched the locally verified release file.
 
-A release download and SHA-256 checksum must be published together before the README's public installation instructions can be considered complete.
+The release includes the Windows installer, an approved licence file, and a SHA-256 manifest. Each published asset digest matched its prepared counterpart. This confirms file integrity, not malware safety or the behaviour of the installed application.
 
 ## Limitations
 

@@ -12,7 +12,7 @@ Logiqra analyses authorised website and web-server logs, identifies suspicious r
 | **Developer** | Vincent Oli |
 | **Source code** | Private; this is the public product showcase |
 
-> **Latest release:** [Logiqra 1.2.0](https://github.com/vinceemmy/Logiqra/releases/tag/v1.2.0) is published. **Release-file review still pending:** the attached licence and checksum-manifest files differ from the previously prepared copies and should be reconciled before this distribution is considered fully verified. The older v1.1.3 release remains historical.
+> **Latest release:** [Logiqra 1.2.0](https://github.com/vinceemmy/Logiqra/releases/tag/v1.2.0) is published, with the official Windows installer, a matching SHA-256 checksum manifest, and the current Logiqra proprietary freeware licence. The older v1.1.3 release remains historical.
 
 ## What Logiqra does
 
@@ -112,7 +112,7 @@ In PowerShell, verify the downloaded file before running it:
 Get-FileHash .\Logiqra-1.2.0-Setup.exe -Algorithm SHA256
 ```
 
-**Release-file review:** The `LICENSE.txt` asset attached to v1.2.0 is smaller than the current `LICENSE.txt` in this repository, and the attached `SHA256SUMS.json` also differs in size from the originally prepared checksum manifest. They should be reviewed and, if necessary, corrected on the GitHub release. Do not treat their contents as fully reconciled yet. The installer is not code-signed, so Windows SmartScreen may warn when it is downloaded.
+**Integrity check:** The published installer, release licence, and checksum manifest were verified against the files prepared for this release using their SHA-256 digests. The installer is not code-signed, so Windows SmartScreen may warn when it is downloaded.
 
 The older v1.1.3 release remains part of the project's development history and is not the current installer. When upgrading, preserve the application database and user data instead of manually deleting them.
 
@@ -190,7 +190,7 @@ Logiqra is designed for authorised security monitoring. Use it only with website
 
 ## Licence and source availability
 
-Logiqra is distributed as **proprietary freeware**. The complete application source code is not published in this showcase repository. The current [Logiqra licence](LICENSE.txt) is **Licence Version 1.0, applicable to Logiqra 1.2.0**. The separately uploaded licence attached to the v1.2.0 release differs in size from this repository document, and the licence embedded in the installer has not been independently verified; reconciliation remains outstanding.
+Logiqra is distributed as **proprietary freeware**. The complete application source code is not published in this showcase repository. The current [Logiqra licence](LICENSE.txt) is **Licence Version 1.0, applicable to Logiqra 1.2.0**. The [licence attached to the v1.2.0 release](https://github.com/vinceemmy/Logiqra/releases/download/v1.2.0/LICENSE.txt) matches the approved licence file by SHA-256. The copy embedded inside the installer has not been independently extracted and verified.
 
 Historical licence and release files relate to their respective prior versions and should not be interpreted as permission to modify or redistribute the private source code.
 

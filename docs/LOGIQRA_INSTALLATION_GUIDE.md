@@ -2,9 +2,9 @@
 
 ## Availability
 
-**The Logiqra 1.2.0 installer was built and validated on Windows, but has not yet been uploaded to this repository's Releases page.** The older v1.1.3 download is historical and does not install the current Logiqra product.
+**Logiqra 1.2.0 is [publicly available on GitHub Releases](https://github.com/vinceemmy/Logiqra/releases/tag/v1.2.0).** The older v1.1.3 download is historical and does not install the current Logiqra product.
 
-When the 1.2.0 release is published, obtain the installer and its matching checksum from [Releases](https://github.com/vinceemmy/Logiqra/releases). Avoid unofficial mirrors.
+Obtain [the official installer](https://github.com/vinceemmy/Logiqra/releases/download/v1.2.0/Logiqra-1.2.0-Setup.exe), [its SHA-256 manifest](https://github.com/vinceemmy/Logiqra/releases/download/v1.2.0/SHA256SUMS.json), and [the licence](https://github.com/vinceemmy/Logiqra/releases/download/v1.2.0/LICENSE.txt) from the same release. Avoid unofficial mirrors.
 
 ## System requirements
 

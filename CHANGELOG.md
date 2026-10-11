@@ -2,7 +2,7 @@
 
 This changelog follows the same Windows cybersecurity project from its original release through its current name, **Logiqra**. Older entries use the branding applicable at the time.
 
-## [1.2.0] - 2026-10 (Windows-validated; public GitHub release pending)
+## [1.2.0] - 2026-10-11 (Windows-validated; publicly released)
 
 ### Product and detection
 - Rebranded the Windows product as Logiqra while retaining continuity with the original project.
@@ -24,7 +24,7 @@ This changelog follows the same Windows cybersecurity project from its original 
 - Overall measured automated test coverage: **86%**.
 - Windows installer built successfully.
 - Post-install manual checks: **5 passed, 1 visual improvement pending**.
-- The 1.2.0 installer is not yet published on the GitHub Releases page.
+- The 1.2.0 installer, approved licence file, and matching SHA-256 checksum manifest were published and verified on [GitHub Releases](https://github.com/vinceemmy/Logiqra/releases/tag/v1.2.0).
 
 ## [1.1.3] - 2026-07-31
 
