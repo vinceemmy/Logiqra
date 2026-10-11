@@ -126,7 +126,7 @@ Logiqra is designed for authorised security monitoring. Use it only with website
 
 ## Licence and source availability
 
-Logiqra is distributed as **proprietary freeware**. The complete application source code is not published in this showcase repository. The current product licence accompanies the official installer; repository licence and supporting documents are being aligned with the 1.2.0 release.
+Logiqra is distributed as **proprietary freeware**. The complete application source code is not published in this showcase repository. The current [Logiqra licence](LICENSE.txt) is **Licence Version 1.0, applicable to Logiqra 1.2.0**. Before publishing the new installer, its bundled licence must be checked against this document.
 
 Historical licence and release files relate to their respective prior versions and should not be interpreted as permission to modify or redistribute the private source code.
 
