@@ -6,4 +6,4 @@ The complete application source code is private. This repository is the public p
 
 Third-party libraries remain subject to their own licences. The optional Cron Micro-Collector is intended for authorised deployment with a matching supported Logiqra configuration.
 
-The older v1.1.3 release and previous commits document the project's development history; they are not the current Logiqra release. The 1.2.0 public installer and the corresponding current licence text are being prepared for publication.
+The older v1.1.3 release and previous commits document the project's development history; they are not the current Logiqra release. The current [Logiqra proprietary freeware licence](LICENSE.txt) is published in this repository and applies to Logiqra 1.2.0. The 1.2.0 public installer is still being prepared for publication.
