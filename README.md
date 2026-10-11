@@ -123,6 +123,7 @@ This repository maintains its original commits and historic release records.
 Current Logiqra 1.2.0 documents:
 
 - [Installation and upgrade guide](docs/LOGIQRA_INSTALLATION_GUIDE.md)
+- **[Website and server connection setup — step-by-step](docs/LOGIQRA_CONNECTION_SETUP_GUIDE.md)**
 - [User guide](docs/LOGIQRA_USER_GUIDE.md)
 - [Technical architecture](docs/LOGIQRA_TECHNICAL_ARCHITECTURE.md)
 - [Security and privacy](docs/LOGIQRA_SECURITY_AND_PRIVACY.md)

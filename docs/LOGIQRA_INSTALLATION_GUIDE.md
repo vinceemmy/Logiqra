@@ -51,6 +51,8 @@ Open the website/source connections section and choose an appropriate method:
 - Compatible cloud log source (for example, Google Cloud Logging where access is configured)
 - Manual import when live collection is unsuitable
 
+**New to connecting servers?** Follow the [step-by-step Website and Server Connection Guide](LOGIQRA_CONNECTION_SETUP_GUIDE.md) for all eight automatic methods, Google Cloud/Firebase setup, cPanel, SSH, Cron Collector, cloud providers, manual import and troubleshooting.
+
 Logiqra analyses only the fields present in the source logs. Connection availability and accepted log formats vary.
 
 ## Closing and reopening

@@ -23,6 +23,8 @@ Depending on source configuration, Logiqra can work with:
 - Supported Google Cloud Logging / Firebase-related and other cloud log sources
 - Manual import
 
+For the exact fields and beginner-friendly instructions for each method, see the [Website and Server Connection Guide](LOGIQRA_CONNECTION_SETUP_GUIDE.md).
+
 Enable only connections you own or are authorised to inspect. Do not put cloud credentials, password files, SSH private keys, or collector secrets into public repositories.
 
 ## Monitoring and system tray
