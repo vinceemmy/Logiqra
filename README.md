@@ -100,10 +100,10 @@ These results describe the tested environment and do not guarantee universal thr
 - [Release checksum manifest](https://github.com/vinceemmy/Logiqra/releases/download/v1.2.0/SHA256SUMS.json)
 - [Current repository licence](LICENSE.txt)
 
-The published installer is **46,292,663 bytes**. Its SHA-256, independently reported by GitHub for the published asset and checked against the installer originally submitted for this release, is:
+The published installer is **46,299,688 bytes**. Its SHA-256, independently reported by GitHub for the published asset and checked against the installer originally submitted for this release, is:
 
 ```text
-b792cb8e057358bc7dc0cf098c3fc5743c651ac6a6f3a3d1f1d9d0a7b1eff8f1
+21f77b039b4d1fe0d275c949383c1a9a82670940bce90e022b6f7fae5d755848
 ```
 
 In PowerShell, verify the downloaded file before running it:
