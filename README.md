@@ -130,7 +130,22 @@ The images below are from the **Logiqra 1.2.0 Windows application**. They have b
 ![Logiqra incidents and Attack Stories investigation, with evidence and client identities hidden](screenshots/04-incidents-attack-stories.png)
 
 ### Detection Rules
-![Logiqra explainable detection rules and category settings](screenshots/05-detection-rules.png)
+
+Logiqra's explainable rule catalogue covers **nine web-threat categories**. These three screenshots show different portions of the same detection-rules table, including each rule's identifier, strength, category, and plain-language logic.
+
+**1. Rule catalogue overview — SQL injection**
+
+![Logiqra detection rules showing enabled SQL injection checks and their explainable logic](screenshots/05-detection-rules.png)
+
+**2. Cross-site scripting (XSS), path traversal, command injection, and reconnaissance**
+
+![Logiqra detection rules showing XSS, path traversal, command injection, and reconnaissance checks](screenshots/05b-detection-rules-xss-path-command-recon.png)
+
+**3. Authentication attacks, broken access control, scanner and bot activity, and data-exfiltration indicators**
+
+![Logiqra detection rules showing authentication bursts, access-control probing, scanner activity, and data-exfiltration indicators](screenshots/05c-detection-rules-auth-access-scan-exfil.png)
+
+*The screenshots demonstrate available detection rules, not guaranteed detection of every attack. Sensitive runtime counters and monitoring details have been removed for public display.*
 
 ### Website Connections
 ![Logiqra supported connection methods and configured sources, with private connection details hidden](screenshots/06-website-connections.png)
