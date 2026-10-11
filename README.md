@@ -102,7 +102,18 @@ The project maintains its original development history. Previous commits, releas
 
 ## Documentation and screenshots
 
-The existing **docs/** and **screenshots/** folders include earlier-version materials. Current Logiqra 1.2.0 documentation and screenshots will be added as the public showcase is refreshed. Do not use older screenshots as representations of the current user interface.
+Current Logiqra 1.2.0 documents:
+
+- [Installation and upgrade guide](docs/LOGIQRA_INSTALLATION_GUIDE.md)
+- [User guide](docs/LOGIQRA_USER_GUIDE.md)
+- [Technical architecture](docs/LOGIQRA_TECHNICAL_ARCHITECTURE.md)
+- [Security and privacy](docs/LOGIQRA_SECURITY_AND_PRIVACY.md)
+- [Windows validation report](docs/LOGIQRA_VERSION_1_2_0_VALIDATION.md)
+- [Changelog](CHANGELOG.md)
+- [Security policy](SECURITY.md)
+- [Notice](NOTICE.md)
+
+The **screenshots/** folder still contains images from the earlier release. They will be replaced with current Logiqra screenshots; they are not intended to represent the 1.2.0 appearance. Earlier documentation remains accessible through Git history.
 
 ## Privacy and responsible use
 

@@ -1,80 +1,47 @@
-# Security Policy
+# Logiqra Security Policy
 
-## Supported versions
+## Supported product
 
-Security fixes are provided for the latest public ForensiQ release.
+**Logiqra 1.2.0** is the current Windows product version and has completed Windows build and automated-test validation. Its public GitHub installer release is being prepared.
 
-| Version | Supported |
-|---|---|
-| 1.1.3 | Yes |
-| 1.1.0 - 1.1.2 | No |
-| 1.0.0 | No |
+The older v1.1.3 download remains a historical release. It should not be confused with the current Logiqra installer.
 
-Users should upgrade to the latest release before reporting a problem that may already have been fixed.
+## Report a vulnerability privately
 
-## Reporting a vulnerability
+Please contact the repository maintainer privately to report security weaknesses. Do not publish exploit steps, sensitive logs, passwords, or private infrastructure information in a public GitHub issue.
 
-Do not disclose suspected vulnerabilities through a public issue, discussion, screenshot, or pull request.
+A useful report includes:
 
-Report the issue privately to the project maintainer. Include only the minimum information required to reproduce and understand the problem:
+- Affected Logiqra version and Windows version
+- Expected and actual behaviour
+- Steps to reproduce using synthetic test data
+- Sanitised error messages or privacy-safe diagnostics
+- Impact and any reasonable mitigation
 
-- The affected ForensiQ version
-- The Windows version
-- A clear description of the issue
-- Minimal reproduction steps
-- The expected and actual behaviour
-- Relevant error messages
-- A small synthetic log sample, when necessary
-- A privacy-safe diagnostic ZIP, when useful
+Allow time for investigation and coordinated disclosure.
 
-ForensiQ can generate a diagnostic ZIP through **Settings** or:
+## Do not share secrets or live customer evidence
 
-```powershell
-ForensiQ.exe --diagnostics
-```
+Never publish:
 
-Inspect every diagnostic file before sharing it.
+- Web-server logs containing real user activity
+- SQLite databases or backups
+- Real incident reports and diagnostic files that have not been inspected
+- Cloud credentials, service-account JSON files, API tokens, or private keys
+- SFTP/FTPS passwords, SSH passphrases, or Cron Micro-Collector secrets
+- Session identifiers, cookies, or authorisation values
+- Private server addresses, internal paths, or confidential deployment details
 
-## Information that must not be shared publicly
+Use synthetic samples and redact identifying information.
 
-Do not include any of the following in a public report or repository:
+## Security scope
 
-- Real access logs
-- SQLite databases or database backups
-- Generated incident reports containing real activity
-- Website credentials
-- SFTP, FTPS, or hosting passwords
-- SSH private keys or passphrases
-- Collector secrets
-- The collector `config.php` file
-- Windows Credential Manager data
-- Session identifiers, tokens, cookies, or authorization headers
-- Real server addresses, hosting paths, usernames, or private infrastructure details
+Logiqra is a log-analysis and investigation tool, not a web application firewall. It does not automatically block requests, patch code, guarantee every alert is malicious, or replace standard security controls.
 
-Use placeholders and synthetic examples wherever possible.
+Only connect systems and data sources you own or are expressly authorised to assess. Limit access to reports, backups, and the local Windows account.
 
-## Responsible testing
+## Release integrity
 
-Only test ForensiQ with systems, websites, logs, and infrastructure that you own or are explicitly authorised to assess.
+When the 1.2.0 public installer is published, check its SHA-256 value against the checksum published alongside that **same release**. Do not use a checksum from another build or from the archived v1.1.3 download.
 
-Do not use this project to access, disrupt, probe, or analyse third-party systems without permission.
-
-## Product security scope
-
-ForensiQ is a local Windows security-analysis application. It detects and explains suspicious patterns in supported web-server access logs.
-
-ForensiQ Version 1 does not automatically block attacks, patch vulnerable applications, or replace secure coding and operational controls. Continue to use:
-
-- Secure coding and input validation
-- Parameterised database queries
-- Timely patching
-- Least-privilege database accounts
-- Backups
-- Server and network monitoring
-- Appropriate firewall and access-control measures
-
-## Disclosure handling
-
-Please allow the maintainer reasonable time to investigate and prepare a fix before publishing technical details.
-
-Security reports should remain private until the issue has been resolved or coordinated disclosure has been agreed.
+See [Security and Privacy](docs/LOGIQRA_SECURITY_AND_PRIVACY.md) for the product's high-level data-handling design.

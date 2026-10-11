@@ -1,6 +1,30 @@
 # Changelog
 
-All notable changes to ForensiQ are documented in this file.
+This changelog follows the same Windows cybersecurity project from its original release through its current name, **Logiqra**. Older entries use the branding applicable at the time.
+
+## [1.2.0] - 2026-10 (Windows-validated; public GitHub release pending)
+
+### Product and detection
+- Rebranded the Windows product as Logiqra while retaining continuity with the original project.
+- Expanded explainable detection beyond SQL injection to include XSS, path traversal, command injection, authentication-guessing indicators, restricted-page probing, scanning patterns, and data-exfiltration indicators where supported by available log fields.
+- Added native support for selected Google Cloud Logging / Firebase-related log sources and other supported cloud connectors alongside local, SFTP, FTPS, cron-collector, and manual-import workflows.
+- Preserved SQL-injection rules, incident investigation, Attack Stories, and privacy-aware reporting.
+
+### Interface and workflow
+- Refined dark navy / steel-blue styling, placeholders, tick-style selection controls, contrast, and mouse cursors.
+- Added recent-event time filters and a more compact filter arrangement in Live Activity.
+- Refined Running-state animation, elapsed-time display, and sidebar activity indicator.
+- Restored the existing system-tray window from the Windows Start menu without creating a second monitoring process.
+- Updated PDF, CSV, and JSON export filenames to use the Logiqra prefix.
+- Increased legibility of warning-dialog text and controls.
+- A brighter ice-blue sidebar Live Activity glow is planned; the current glow remains too faint in manual testing.
+
+### Validation
+- Windows validation on Python 3.12.10: Ruff passed, mypy passed for 116 source files, and **1,059 automated tests passed**.
+- Overall measured automated test coverage: **86%**.
+- Windows installer built successfully.
+- Post-install manual checks: **5 passed, 1 visual improvement pending**.
+- The 1.2.0 installer is not yet published on the GitHub Releases page.
 
 ## [1.1.3] - 2026-07-31
 
