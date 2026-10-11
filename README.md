@@ -12,7 +12,7 @@ Logiqra analyses authorised website and web-server logs, identifies suspicious r
 | **Developer** | Vincent Oli |
 | **Source code** | Private; this is the public product showcase |
 
-> **Download status:** The Logiqra 1.2.0 Windows installer has been built and validated locally, but **has not yet been published to this repository's Releases page**. The older v1.1.3 release shown on GitHub is historical and is **not** the current Logiqra installer. Please do not mistake it for the latest version.
+> **Latest release:** [Logiqra 1.2.0](https://github.com/vinceemmy/Logiqra/releases/tag/v1.2.0) is published. **Release-file review still pending:** the attached licence and checksum-manifest files differ from the previously prepared copies and should be reconciled before this distribution is considered fully verified. The older v1.1.3 release remains historical.
 
 ## What Logiqra does
 
@@ -94,11 +94,29 @@ These results describe the tested environment and do not guarantee universal thr
 
 ## Installation and releases
 
-**Logiqra 1.2.0 public release assets are being prepared.** Once published, this section will provide the official installer link and matching SHA-256 checksum verification instructions.
+**Latest GitHub release:** [Logiqra 1.2.0](https://github.com/vinceemmy/Logiqra/releases/tag/v1.2.0)
 
-Please avoid treating the historical v1.1.3 installer as the current application. Keep your database and application data when upgrading; do not manually delete them to install a newer version.
+- [Download Logiqra 1.2.0 Windows installer](https://github.com/vinceemmy/Logiqra/releases/download/v1.2.0/Logiqra-1.2.0-Setup.exe)
+- [Release checksum manifest](https://github.com/vinceemmy/Logiqra/releases/download/v1.2.0/SHA256SUMS.json)
+- [Current repository licence](LICENSE.txt)
 
-The project maintains its original development history. Previous commits, release records, and some older screenshots/documentation may reflect an earlier product name and are retained for historical traceability, not as current branding.
+The published installer is **46,292,663 bytes**. Its SHA-256, independently reported by GitHub for the published asset and checked against the installer originally submitted for this release, is:
+
+```text
+b792cb8e057358bc7dc0cf098c3fc5743c651ac6a6f3a3d1f1d9d0a7b1eff8f1
+```
+
+In PowerShell, verify the downloaded file before running it:
+
+```powershell
+Get-FileHash .\Logiqra-1.2.0-Setup.exe -Algorithm SHA256
+```
+
+**Release-file review:** The `LICENSE.txt` asset attached to v1.2.0 is smaller than the current `LICENSE.txt` in this repository, and the attached `SHA256SUMS.json` also differs in size from the originally prepared checksum manifest. They should be reviewed and, if necessary, corrected on the GitHub release. Do not treat their contents as fully reconciled yet. The installer is not code-signed, so Windows SmartScreen may warn when it is downloaded.
+
+The older v1.1.3 release remains part of the project's development history and is not the current installer. When upgrading, preserve the application database and user data instead of manually deleting them.
+
+This repository maintains its original commits and historic release records.
 
 ## Documentation and screenshots
 
@@ -172,7 +190,7 @@ Logiqra is designed for authorised security monitoring. Use it only with website
 
 ## Licence and source availability
 
-Logiqra is distributed as **proprietary freeware**. The complete application source code is not published in this showcase repository. The current [Logiqra licence](LICENSE.txt) is **Licence Version 1.0, applicable to Logiqra 1.2.0**. Before publishing the new installer, its bundled licence must be checked against this document.
+Logiqra is distributed as **proprietary freeware**. The complete application source code is not published in this showcase repository. The current [Logiqra licence](LICENSE.txt) is **Licence Version 1.0, applicable to Logiqra 1.2.0**. The separately uploaded licence attached to the v1.2.0 release differs in size from this repository document, and the licence embedded in the installer has not been independently verified; reconciliation remains outstanding.
 
 Historical licence and release files relate to their respective prior versions and should not be interpreted as permission to modify or redistribute the private source code.
 
