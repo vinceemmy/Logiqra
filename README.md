@@ -113,7 +113,38 @@ Current Logiqra 1.2.0 documents:
 - [Security policy](SECURITY.md)
 - [Notice](NOTICE.md)
 
-The **screenshots/** folder still contains images from the earlier release. They will be replaced with current Logiqra screenshots; they are not intended to represent the 1.2.0 appearance. Earlier documentation remains accessible through Git history.
+## Logiqra 1.2.0 screenshots
+
+The images below are from the **Logiqra 1.2.0 Windows application**. They have been edited specifically for public display: real website and cloud-project identifiers, client IP addresses, event timestamps, detailed requests, incident evidence, report hashes and file paths, operational totals, and unrelated system-tray items have been **masked or replaced with explicit example labels**. Redacted labels are not live product data.
+
+### Dashboard
+![Logiqra Dashboard showing monitoring and security activity overview, with sensitive figures hidden](screenshots/01-dashboard-overview.png)
+
+### Live Activity
+![Logiqra Live Activity request table and filters, with source identities and request details hidden](screenshots/02-live-activity.png)
+
+### Security notifications
+![Logiqra security notifications, with private timestamps and messages hidden](screenshots/03-alerts-notifications.png)
+
+### Incidents and Attack Stories
+![Logiqra incidents and Attack Stories investigation, with evidence and client identities hidden](screenshots/04-incidents-attack-stories.png)
+
+### Detection Rules
+![Logiqra explainable detection rules and category settings](screenshots/05-detection-rules.png)
+
+### Website Connections
+![Logiqra supported connection methods and configured sources, with private connection details hidden](screenshots/06-website-connections.png)
+
+### Reports
+![Logiqra PDF CSV and JSON reporting interface, with private report identifiers removed](screenshots/07-reports.png)
+
+### Settings
+![Logiqra monitoring and detection settings, with deployment-specific values withheld](screenshots/08-settings.png)
+
+### About and system-tray menu
+![Logiqra 1.2.0 About page and Windows system-tray controls, with unrelated tray icons hidden](screenshots/09-system-tray-menu.png)
+
+Older product screenshots can still be found in the repository's previous commits, as part of its development history.
 
 ## Privacy and responsible use
 
